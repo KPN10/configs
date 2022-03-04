@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Monokai Vibrant",
+    "workbench.startupEditor": "none",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "git.confirmSync": false,
+    "cmake.configureOnOpen": true
+}

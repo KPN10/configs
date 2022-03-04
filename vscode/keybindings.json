@@ -1,0 +1,81 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+pageup",
+        "command": "workbench.action.terminal.resizePaneUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+pagedown",
+        "command": "workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "workbench.action.terminal.scrollUp",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "-workbench.action.terminal.scrollUp",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.terminal.scrollDown",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "-workbench.action.terminal.scrollDown",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "shift+pagedown",
+        "command": "-workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "ctrl+end",
+        "command": "workbench.action.terminal.scrollToBottom",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "shift+end",
+        "command": "-workbench.action.terminal.scrollToBottom",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "ctrl+home",
+        "command": "workbench.action.terminal.scrollToTop",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "shift+home",
+        "command": "-workbench.action.terminal.scrollToTop",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.terminal.scrollUpPage",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "shift+pageup",
+        "command": "-workbench.action.terminal.scrollUpPage",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+    },
+    {
+        "key": "alt+f4",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    }
+]
