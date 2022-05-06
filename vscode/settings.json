@@ -1,9 +1,27 @@
 {
     "workbench.colorTheme": "Monokai Vibrant",
     "workbench.startupEditor": "none",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
     "gitlens.advanced.messages": {
         "suppressGitMissingWarning": true
     },
     "git.confirmSync": false,
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "gitlens.codeLens.recentChange.command": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.scopes": [],
+    "gitlens.codeLens.authors.command": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "editor.renderControlCharacters": false,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme"
 }

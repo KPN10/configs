@@ -21,8 +21,8 @@
   <style name="Type" foreground="#55ff55" bold="true"/>
   <style name="Namespace" foreground="#55ff55" bold="true"/>
   <style name="Local" foreground="#355ad6" bold="true"/>
-  <style name="Parameter" foreground="#204a87" bold="true"/>
-  <style name="Global" foreground="#521dee" bold="true"/>
+  <style name="Parameter" foreground="#3465a4" bold="true"/>
+  <style name="Global" foreground="#0da2f7" bold="true"/>
   <style name="Field" foreground="#04ada6" bold="true"/>
   <style name="Static" foreground="#55ff55" bold="true"/>
   <style name="VirtualMethod" foreground="#75507b" bold="true"/>
