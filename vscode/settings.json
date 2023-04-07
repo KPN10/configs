@@ -1,0 +1,41 @@
+{
+    "editor.rulers": [
+        80, 120
+    ],
+    "workbench.colorTheme": "Monokai Vibrant",
+    "workbench.startupEditor": "none",
+    "remote.SSH.remotePlatform": {
+
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "remote.SSH.defaultForwardedPorts": [
+
+    ],
+    "remote.SSH.configFile": "",
+    "extensions.autoUpdate": false,
+    "editor.codeActionsOnSave": {
+
+    },
+    "git.confirmSync": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 1000,
+    "editor.fontWeight": "normal",
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.acceptSuggestionOnEnter": "on",
+    "settingsSync.ignoredExtensions": [
+
+    ],
+    "gitlens.views.remotes.branches.layout": "list",
+    "editor.minimap.enabled": false,
+    "cmake.configureOnOpen": false,
+    "editor.renderWhitespace": "none",
+    "C_Cpp.autocomplete": "Disabled",
+    "terminal.integrated.scrollback": 100000,
+}
