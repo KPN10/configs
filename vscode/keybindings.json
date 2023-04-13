@@ -223,5 +223,9 @@
     {
         "key": "ctrl+alt+b",
         "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+r ctrl+p",
+        "command": "python.execInTerminal-icon"
     }
 ]
