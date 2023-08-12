@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Monokai Vibrant",
     "workbench.startupEditor": "none",
     "editor.quickSuggestions": {
         "other": false,
@@ -23,5 +22,6 @@
     "editor.renderControlCharacters": false,
     "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": false,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai Vibrant"
 }

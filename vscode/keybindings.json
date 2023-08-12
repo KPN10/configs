@@ -211,7 +211,7 @@
         "command": "-workbench.action.quit"
     },
     {
-        "key": "ctrl+alt+left ctrl+alt+f",
+        "key": "ctrl+alt+f",
         "command": "workbench.action.toggleFullScreen",
         "when": "!isIOS"
     },
