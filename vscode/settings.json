@@ -1,15 +1,29 @@
 {
+    "extensions.autoUpdate": false,
     "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai Vibrant"
+    
+    "files.autoSave": "onFocusChange",
+    
+    "editor.rulers": [ 80, 120 ],
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
         "strings": false
-    },
+    },   
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+
+    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.autoReplies": {},
+    
     "gitlens.advanced.messages": {
         "suppressGitMissingWarning": true
     },
     "git.confirmSync": false,
-    "cmake.configureOnOpen": true,
     "gitlens.codeLens.recentChange.command": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.scopes": [],
@@ -19,9 +33,15 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
-    "editor.renderControlCharacters": false,
-    "files.autoSave": "onFocusChange",
-    "editor.minimap.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Monokai Vibrant"
+    
+    "cmake.configureOnOpen": true,
+
+    "C_Cpp.autocomplete": "Disabled",
+
+    "python.autoComplete.extraPaths": [
+    
+    ],
+
+    "javascript.suggest.includeAutomaticOptionalChainCompletions": false,
+    "javascript.suggest.enabled": false,
 }
