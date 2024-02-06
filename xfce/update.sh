@@ -1,7 +1,7 @@
 #!/bin/bash
 
 current_dir=`pwd`
-path_to_conf="/home/kpn/.config/xfce4"
+path_to_conf="/home/$USER/.config/xfce4"
 subdir=""
 
 function update () {
