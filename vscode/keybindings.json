@@ -219,5 +219,9 @@
         "key": "f11",
         "command": "-workbench.action.toggleFullScreen",
         "when": "!isIOS"
+    },
+    {
+        "key": "ctrl+r ctrl+t",
+        "command": "C_Cpp.BuildAndRunFile"
     }
 ]
