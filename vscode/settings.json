@@ -3,7 +3,7 @@
     "extensions.autoUpdate": false,
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Monokai Vibrant"
+    "workbench.colorTheme": "Monokai Vibrant",
     
     "files.autoSave": "onFocusChange",
     
