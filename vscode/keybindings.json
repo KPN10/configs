@@ -223,5 +223,9 @@
     {
         "key": "ctrl+r ctrl+t",
         "command": "C_Cpp.BuildAndRunFile"
+    },
+    {
+        "key": "ctrl+r ctrl+p",
+        "command": "python.execInTerminal-icon"
     }
 ]
