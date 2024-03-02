@@ -12,8 +12,15 @@
         "other": false,
         "comments": false,
         "strings": false
-    },   
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "on",
+    "editor.wordBasedSuggestions": false,
+    "editor.quickSuggestions": false,
+    "editor.quickSuggestionsDelay": 10,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.hover.enabled": false,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
@@ -38,11 +45,11 @@
     "cmake.configureOnOpen": true,
 
     "C_Cpp.autocomplete": "Disabled",
-
+    "python.analysis.extraPaths": [],
     "python.autoComplete.extraPaths": [
     
     ],
 
     "javascript.suggest.includeAutomaticOptionalChainCompletions": false,
-    "javascript.suggest.enabled": false,
+    "javascript.suggest.enabled": false
 }
