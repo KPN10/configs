@@ -15,7 +15,7 @@
     },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "on",
-    "editor.wordBasedSuggestions": false,
+    "editor.wordBasedSuggestions": "off",
     "editor.quickSuggestionsDelay": 10,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestOnTriggerCharacters": false,
@@ -23,6 +23,7 @@
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
+    "editor.parameterHints.enabled": false,
 
     "terminal.integrated.scrollback": 100000,
     "terminal.integrated.autoReplies": {},
@@ -43,7 +44,7 @@
     
     "cmake.configureOnOpen": true,
 
-    "C_Cpp.autocomplete": "Disabled",
+    "C_Cpp.autocomplete": "disabled",
     "python.analysis.extraPaths": [],
     "python.autoComplete.extraPaths": [
     ],
