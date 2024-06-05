@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function install() {
-    code --install-extension $1
+    code --install-extension $1 --force
 }
 
 function disable() {
@@ -14,6 +14,7 @@ install ms-vscode.cpptools-themes
 install ms-vscode.cpptools-extension-pack
 install ms-dotnettools.csharp
 install ms-vscode-remote.remote-ssh
+install ms-vscode-remote.remote-containers
 install ms-vscode.makefile-tools
 install ms-vscode.hexeditor
 install ms-vscode.cmake-tools

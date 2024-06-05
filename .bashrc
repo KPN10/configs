@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+alias proxyon="export http_proxy='http://<ip>:<port>';export https_proxy='http://<ip>:<port>'"
+alias proxyoff="export http_proxy='';export https_proxy=''"
