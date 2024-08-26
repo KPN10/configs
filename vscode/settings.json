@@ -1,15 +1,23 @@
 {
-    // "http.proxyStrictSSL":false,
-    // "http.proxy":"http://192.168.1.1:3128",
+    "http.proxySupport": "off",
+    "http.proxyAuthorization": null,
+    "http.proxyStrictSSL": false,
     "telemetry.telemetryLevel": "off",
+    "update.mode": "none",
+    "extensions.autoCheckUpdates": false,
+    "extensions.ignoreRecommendations": true,
+
     "extensions.autoUpdate": false,
     "window.zoomLevel": 0.5,
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Monokai Vibrant",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
 
     "files.autoSave": "onFocusChange",
 
+    // "explorer.autoReveal": false,
     "editor.rulers": [ 80, 120 ],
     "editor.quickSuggestions": {
         "other": false,
@@ -35,8 +43,9 @@
 
     "terminal.integrated.scrollback": 100000,
     "terminal.integrated.autoReplies": {},
+    "terminal.integrated.fontFamily": "monospace",
+    //"terminal.integrated.fontFamily": "Hack NF",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Hack NF",
     
     "git.confirmSync": false,
     "git.openRepositoryInParentFolders": "never",
@@ -44,6 +53,7 @@
     "gitlens.advanced.messages": {
         "suppressGitMissingWarning": true
     },
+    "git.confirmSync": false,
     "gitlens.codeLens.recentChange.command": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.scopes": [],
@@ -53,7 +63,7 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
-    
+
     "cmake.configureOnOpen": true,
     "cmake.showOptionsMovedNotification": false,
 
@@ -69,6 +79,8 @@
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
     ],
+    "cmake.showOptionsMovedNotification": false,
+    "git.openRepositoryInParentFolders": "never",
     "task.problemMatchers.neverPrompt": {
         "shell": true
     }

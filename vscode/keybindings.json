@@ -1,6 +1,16 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
+        "key": "ctrl+t ctrl+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build"
+    },
+    {
+        "key": "ctrl+t ctrl+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "run"
+    },
+    {
         "key": "ctrl+alt+pageup",
         "command": "workbench.action.terminal.resizePaneUp",
         "when": "terminalFocus"
@@ -230,6 +240,6 @@
     },
     {
         "key": "ctrl+t ctrl+k",
-        "command": "workbench.action.terminal.killAll"
+        "command": "workbench.action.terminal.kill"
     }
 ]
