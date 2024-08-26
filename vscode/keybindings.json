@@ -227,5 +227,9 @@
     {
         "key": "ctrl+r ctrl+p",
         "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "ctrl+t ctrl+k",
+        "command": "workbench.action.terminal.killAll"
     }
 ]
