@@ -29,5 +29,7 @@ install mshr-h.VerilogHDL
 install gvekony.systemverilog-1800-2012
 install bitwisecook.tcl
 install s3gf4ult.monokai-vibrant
+install EthanSK.restore-terminals
+install Veracosta.mib
 #install monokai.theme-monokai-pro-vscode
 
