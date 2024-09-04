@@ -9,6 +9,8 @@ function disable() {
 }
 
 install ms-python.python
+install ms-python.autopep8
+install ms-python.pylint
 install ms-vscode.cpptools
 install ms-vscode.cpptools-themes
 install ms-vscode.cpptools-extension-pack
@@ -31,5 +33,7 @@ install bitwisecook.tcl
 install s3gf4ult.monokai-vibrant
 install EthanSK.restore-terminals
 install Veracosta.mib
+install Gruntfuggly.todo-tree
+install alefragnani.Bookmarks
 #install monokai.theme-monokai-pro-vscode
 
