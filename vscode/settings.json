@@ -1,14 +1,15 @@
 {
+    "window.zoomLevel": 0.5,
     "http.proxySupport": "off",
     "http.proxyAuthorization": null,
     "http.proxyStrictSSL": false,
+    // "http.proxy": "",
     "telemetry.telemetryLevel": "off",
     "update.mode": "none",
     "extensions.autoCheckUpdates": false,
     "extensions.ignoreRecommendations": true,
 
     "extensions.autoUpdate": false,
-    "window.zoomLevel": 0.5,
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Monokai Vibrant",
@@ -38,7 +39,7 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": false,
     "editor.stickyScroll.enabled": false,
-    "editor.codeActionsOnSave": {    
+    "editor.codeActionsOnSave": {
     },
 
     "terminal.integrated.scrollback": 100000,
@@ -46,14 +47,14 @@
     "terminal.integrated.fontFamily": "monospace",
     //"terminal.integrated.fontFamily": "Hack NF",
     "terminal.integrated.fontSize": 14,
-    
+    "terminal.integrated.lineHeight": 1.15,
+
     "git.confirmSync": false,
     "git.openRepositoryInParentFolders": "never",
 
     "gitlens.advanced.messages": {
         "suppressGitMissingWarning": true
     },
-    "git.confirmSync": false,
     "gitlens.codeLens.recentChange.command": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.scopes": [],
@@ -79,9 +80,16 @@
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
     ],
-    "cmake.showOptionsMovedNotification": false,
-    "git.openRepositoryInParentFolders": "never",
     "task.problemMatchers.neverPrompt": {
         "shell": true
-    }
+    },
+
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+
+    "clangd.detectExtensionConflicts": false
 }

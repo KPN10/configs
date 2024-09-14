@@ -35,5 +35,12 @@ install EthanSK.restore-terminals
 install Veracosta.mib
 install Gruntfuggly.todo-tree
 install alefragnani.Bookmarks
+install yzhang.markdown-all-in-one
+install ecmel.vscode-html-css
+install abusaidm.html-snippets
+install george-alisson.html-preview-vscode
+install xabikos.JavaScriptSnippets
+install dbaeumer.vscode-eslint
+install llvm-vs-code-extensions.vscode-clangd
 #install monokai.theme-monokai-pro-vscode
 
