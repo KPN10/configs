@@ -91,5 +91,6 @@
         "editor.defaultFormatter": "ms-python.autopep8"
     },
 
-    "clangd.detectExtensionConflicts": false
+    "clangd.detectExtensionConflicts": false,
+    "vim.foldfix": true
 }
