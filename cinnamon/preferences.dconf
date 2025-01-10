@@ -1,0 +1,5 @@
+[/]
+button-layout='close,maximize,minimize:'
+min-window-opacity=30
+num-workspaces=4
+workspace-names=@as []
